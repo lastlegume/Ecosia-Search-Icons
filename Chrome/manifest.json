@@ -1,15 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Ecosia Search Icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Displays the icon for search results on Ecosia",
   "content_scripts": [
     {
       "matches": ["*://*.ecosia.org/*"],
       "js": ["addIcons.js"]
     }
-  ],
-  "permissions": [
-    "storage"
-    ]
+  ]
 }
