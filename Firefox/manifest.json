@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Ecosia Search Icons",
+  "version": "1.0.0",
+  "description": "Displays the icon for search results on Ecosia",
+  "content_scripts": [
+    {
+      "matches": ["*://*.ecosia.org/*"],
+      "js": ["addIcons.js"]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "https://icons.duckduckgo.com/ip3/*"
+    ]
+}
