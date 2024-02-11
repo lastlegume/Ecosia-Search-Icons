@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Ecosia Search Icons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Displays the icon for search results on Ecosia",
   "content_scripts": [
     {
@@ -15,5 +15,8 @@
   "permissions": [
     "storage",
     "https://icons.duckduckgo.com/ip3/*"
-    ]
+    ],
+    "icons":{
+      "128": "ESI.png"
+    }
 }
